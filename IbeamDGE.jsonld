@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "IbeamDGE",
+    "motivations": "I have served in many senior leadership positions at home and internationally throughout my career.  I work very well with international teams and small groups. I am the owner of a small NFT project and the co-founder of a larger Cardano project.",
+    "objectives": "Represent project innovators and creators challenging the status quo. Help lead our space into the future.  Provide support to small independent projects and organizations.",
+    "paymentAddress": "addr1qxdq56s8jls59tl9u9hscz2l2n7xspd8y29dc8y670na7gu2dw8plc24qzp2qfw22e4rasv0k97gdtx7kdx78fhsy5as2ny0zx",
+    "qualifications": "Owner NFT project on Cardano, Co-founder of a larger digital asset project and founder of a medium sized project on Cardano. I am active in the Cardano space on many levels and maintain great overall awareness of events happening in Cardano and crypto spaces in general.  ",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Digital Gold Ecosystem",
+        "uri": "https://www.digitalgoldecosystem.com/"
+      },
+      {
+        "@type": "Link",
+        "label": "BLACK CONNOISSEUR CONSULTING LLC",
+        "uri": "https://blackconnoisseur.com/"
+      },
+      {
+        "@type": "Identity",
+        "label": "Digital Gold Team page",
+        "uri": "https://www.digitalgoldecosystem.com/team-2"
+      },
+      {
+        "@type": "Identity",
+        "label": "linkedIn",
+        "uri": "https://www.linkedin.com/in/reginald-baker-20937a1a"
+      },
+      {
+        "@type": "Identity",
+        "label": "BLACK CONNOISSEUR CONSULTING LLC",
+        "uri": "https://blackconnoisseur.com/"
+      }
+    ]
+  }
+}
